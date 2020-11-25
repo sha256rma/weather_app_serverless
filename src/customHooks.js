@@ -34,6 +34,7 @@ export const useFetchWeather = (url, city) => {
         setError(true);
         setLoading(false);
       });
-  }, [city]); // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [city]);
   return { data, error, loading };
 };
