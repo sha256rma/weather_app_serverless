@@ -23,7 +23,9 @@ const Weather = () => {
   return (
     <Container id="main-container">
       <Segment raised>
-        <Header className="ui basic segment centered">Semantic Weather</Header>
+        <Header className="ui basic segment centered">
+          Weather App - Serverless
+        </Header>
         <Segment>
           <Form onSubmit={() => setSearchValue(inputValue)}>
             <Input
